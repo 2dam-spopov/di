@@ -3,17 +3,17 @@
 1.
 >>>int("dos")
 Salida: Error.
-No puede convertir un string no númerico a un int.
+No puede convertir un string no numérico a un int.
 
 2.
 >>>print(str(3+3)+"3")
 Salida: 63
-El str(3+3) hace la suma y despues convierte en string, "3" al ir entre comillas es string y el + concatena los dos resultados.
+El str(3+3) hace la suma y después convierte en string, "3" al ir entre comillas es string y el + concatena los dos resultados.
 
 3.
 >>>type(3>2)
 Salida: <class 'bool'>
-Al ser una comparación la respuesta sería true o falsela por lo tanto salida nos muestra que es tipo booleano.
+Al ser una comparación la respuesta sería true o false por lo tanto salida nos muestra que es tipo booleano.
 
 4.
 >>>type(3=3)
@@ -48,7 +48,7 @@ Nos muestra el contenido desde la posición 3 que en este caso solo tenemos esa 
 10.
 >>>2345[4]
 Salida: Error.
-Pregunta trampa. Nos pone que nos muestre la posición 4, aquí no existe esta posición y aunque existiera no puede mostrrar nada ya que no es un string.
+Pregunta trampa. Nos pone que nos muestre la posición 4, aquí no existe esta posición y aunque existiera no puede mostrar nada ya que no es un string.
 
 
 11.
