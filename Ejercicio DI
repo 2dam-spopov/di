@@ -52,6 +52,58 @@ Pregunta trampa. Nos pone que nos muestre la posición 4, aquí no existe esta p
 11.
 >>>
 str((not True)and(not False))
+Salida: 'False'
+Según la tabla de verdad (not true)=false, (not false)=true, (false and true)= false
+
+12.
+>>>10%3
+Salida: 1
+El símbolo % significa el módulo de una operación, es decir es el resto.
+
+13.
+>>>10//3
+Salida: 3
+El resultado es el número que multiplica al 3 para acercarse al 10.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
