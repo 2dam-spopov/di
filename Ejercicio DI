@@ -1,0 +1,68 @@
+1.
+>>>int("dos")
+Salida: Error.
+No puede convertir un string no númerico a un int.
+
+2.
+>>>print(str(3+3)+"3")
+Salida: 63
+El str(3+3) hace la suma y despues convierte en string, "3" al ir entre comillas es string y el + concatena los dos resultados.
+
+3.
+>>>type(3>2)
+Salida: <class 'bool'>
+Al ser una comparación la respuesta sería true o falsela por lo tanto salida nos muestra que es tipo booleano.
+
+4.
+>>>type(3=3)
+Salida: Error.
+El símbolo = en este caso no es el de comparación que sería == para dar una salida booleana.
+
+5.
+>>>"Hola"[4]
+Salida: Error.
+Nos devuelve un error porque la longitud de este string es de 4 pero pedimos que nos muestre lo que hay en la posición 4, al empezar de 0 las posiciones no existe nada.
+
+6.
+>>>"Hola"[-4]
+Salida: 'H'
+En este caso el número negativo lo que hace es comprobar que hay en la posición -4 contando en sentido contrario.
+
+7.
+>>>"Hola"[1:3]
+Salida: 'ol'
+Nos dice que caracteres se encuentran dentro de un rango. En este caso sería la posición 1='o' y 2='l'
+
+8.
+>>>"hola"[:3]
+Salida: 'hol'
+Aquí nos dice los caracteres en un rango pero en este caso empezando de la posición 0.
+
+9.
+>>>"hola"[3:]
+Salida: 'a'
+Nos muestra el contenido desde la posición 3 que en este caso solo tenemos esa posición.
+
+10.
+>>>2345[4]
+Salida: Error.
+Pregunta trampa. Nos pone que nos muestre la posición 4, aquí no existe esta posición y aunque existiera no puede mostrrar nada ya que no es un string.
+
+
+11.
+>>>
+str((not True)and(not False))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
