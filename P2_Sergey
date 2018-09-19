@@ -1,3 +1,5 @@
+
+
 1.
 >>>int("dos")
 Salida: Error.
@@ -64,53 +66,6 @@ El símbolo % significa el módulo de una operación, es decir es el resto.
 >>>10//3
 Salida: 3
 El resultado es el número que multiplica al 3 para acercarse al 10.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
