@@ -1,0 +1,44 @@
+
+
+>>>['a','b','c'].index("c")
+Salida:2
+Nos dice el índice de la letra "c".
+
+>>>[3,2,1].pop(2)
+Salida:1
+Elimina el valor que se encuentra en el índice 2.
+
+>>>dic1={'prof1':'g_ingles','prof2':'g_frances'}
+>>>dic1.update({'prof3':'g_aleman'}
+>>>print(dic1.keys())
+Salida: dict_keys(['prof2', 'prof3', 'prof1'])
+Creamos un diccionario con dos claves y sus valores, con update añadimos otra clave con su valor,
+finalmente mostramos las claves del diccionario y vemos que tenemos 3.
+
+>>>{1,2,3}&{2,4,6}
+Salida: {2}
+Nos muestra el valor común. 
+
+>>>{1,2,3}|{2,4,6}
+Salida: {1, 2, 3, 4, 6}
+Nos muestra todos los valores juntos sin repetir.
+
+>>>{1,2,3}&{1}
+Salida: {1}
+Nos muestra el valor común.
+
+>>>{1,2,3}-{2,4,6}
+Salida: {1,3}
+Nos muestra los valores que quedan en el priemr conjunto al quitar los valroes comunes.
+
+>>>{1,2,3}^{2,4,6}
+Salida: {1, 3, 4, 6}
+Te muestra un conjunto con valores no comunes de dos conjuntos.
+
+>>>3 in{1,2,3}^{3,4,5}
+Salida: False
+Lo que hace es juntar valores no comunes de dos conjuntos y comprueba si el 3 esta en el.
+
+>>>3 not in (1,2,3)
+Salida: False
+Comprueba si no está el 3 en la tupla.
