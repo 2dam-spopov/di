@@ -10,7 +10,7 @@
 
 
 #1#
-numero = input("Introduce número en binario")
+numero = input("Introduce número en binario: ")
 
 #2#
 numeroInver = numero[::-1]
