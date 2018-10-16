@@ -23,7 +23,6 @@ if palabras > 0:
 
     print("La lista creada es: ", lista)
 
-
 while flag==True:
     palabraBorr = input("Palabra a eliminar: ")
     contRepet = lista.count(palabraBorr)
@@ -31,8 +30,7 @@ while flag==True:
         print("La palabra introducida no está en la lista, comprueba: ",lista," y vuelve a intentarlo: ")
     else:
         flag = False
-        for i in range(contRepet):
-            lista.remove(palabraBorr)
+        lista.remove(palabraBorr)
         print("La lista es ahora: ", lista)
         flag2=input("¿Desea borrar otra palabra? s/n")
         if flag2=="s":

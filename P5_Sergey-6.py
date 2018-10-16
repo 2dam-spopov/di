@@ -22,18 +22,5 @@ if palabras > 0:
         lista.append(intro)
 
     print("La lista creada es: ", lista)
-
-
-while flag==True:
-    palabraBorr = input("Palabra a eliminar: ")
-    contRepet = lista.count(palabraBorr)
-    if contRepet == 0:
-        print("La palabra introducida no está en la lista, comprueba: ",lista," y vuelve a intentarlo: ")
-    else:
-        flag = False
-        for i in range(contRepet):
-            lista.remove(palabraBorr)
-        print("La lista es ahora: ", lista)
-        flag2=input("¿Desea borrar otra palabra? s/n")
-        if flag2=="s":
-            flag=True
+lista2 = lista[::-1]
+print("La lista inversa es:", lista2)
