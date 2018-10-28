@@ -109,5 +109,3 @@ print("Palabras que aparecen en las dos listas: ", lista3)
 print("Palabras que sólo aparecen en la primera lista: ", lista4)
 print("Palabras que sólo aparecen en la segunda lista: ", lista5)
 print("Todas las palabras: ", lista6)
-
-
