@@ -28,9 +28,14 @@ while True:
 					print("Debes introducir un número entero!")	
 
 		# Añade a la lista valores introducidos.
-		for i in range(0,num_segmentos):
-			seg=float(input("Introduce el segmento {}:               ".format(i+1)))
-			lista.append(seg)
+		while True:
+			try:
+				for i in range(0,num_segmentos):
+					seg=float(input("Introduce el segmento {}:               ".format(i+1)))
+					lista.append(seg)
+				break
+			except ValueError:
+				print("Debes introducir un número!!!!!")		
 		break
 
 	except ValueError:
