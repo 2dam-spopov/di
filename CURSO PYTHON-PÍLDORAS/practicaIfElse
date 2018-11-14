@@ -1,0 +1,24 @@
+print("verificacion de edad")
+
+edad=int(input("Introduce tu dad, por favor: "))
+if edad<18:
+	print("No puedes pasar")
+elif edad>100:
+	print("Edad incorrecta")	
+else: 
+	print("Puedes pasar")
+print("El programa ha finalizado")
+
+
+nota=int(input("Introduce tu nota, por favor: "))
+if nota<5:
+	print("Insuficiente")
+elif nota<6:
+	print("Suficiente")
+elif nota<7:
+	print("Bien")
+elif nota<9:
+	print("Notable")	
+else:
+	print("Sobresaliente")
+
